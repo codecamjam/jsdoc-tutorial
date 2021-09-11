@@ -22,7 +22,7 @@ const studentName = 'John'; // const studentName = 1 throws error;
 const grades = [98, 97.7, 76, 89]; //type error if not all numbers
 
 /**
- * todo object
+ * Todo object
  * @type {{id: number|string, text: string}}
  */
 const todo = {
