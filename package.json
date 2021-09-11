@@ -1,0 +1,23 @@
+{
+  "name": "jsdoc-tutorial",
+  "version": "1.0.0",
+  "description": "This is a code-along with Brad Traversy's JSdoc tutorial video on youtube.",
+  "main": "index.js",
+  "scripts": {
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecamjam/jsdoc-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codecamjam/jsdoc-tutorial/issues"
+  },
+  "homepage": "https://github.com/codecamjam/jsdoc-tutorial#readme",
+  "devDependencies": {
+    "jsdoc": "^3.6.7"
+  }
+}
