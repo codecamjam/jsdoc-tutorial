@@ -1,4 +1,6 @@
 //@ts-check
+const { add, subtract, divide, multiply } = require('./calculator');
+
 //////////////////////////////////////////////////////////////
 //LESSON 1: JSDOCS BASICS
 
@@ -110,3 +112,7 @@ const person1 = new Person({
 });
 
 // console.log(person1.greet());
+
+//////////////////////////////////////////////////////////////
+//LESSON 6 MODULES
+console.log(add(20, 50));
