@@ -2,6 +2,14 @@
 const { add, subtract, divide, multiply } = require('./calculator');
 
 //////////////////////////////////////////////////////////////
+//LESSON 8: JSDOCS meta info and readme
+/**
+ * @file index.js is the root file for this example app
+ * @author Cam Jam
+ * @see <a href="https://github.com/codecamjam/jsdoc-tutorial">JSdoc tutorial</a>
+ */
+
+//////////////////////////////////////////////////////////////
 //LESSON 1: JSDOCS BASICS
 
 /*
