@@ -68,3 +68,45 @@ const student = {
   age: 20, //this can be omitted since [age] indicates optional
   isActive: true,
 };
+
+//////////////////////////////////////////////////////////////
+//LESSON 5 CLASSES
+
+/**
+ * Class to create a person object
+ */
+class Person {
+  /**
+   * @param {Object} personInfo  - Information about the person
+   */
+  constructor(personInfo) {
+    /**
+     * @property {string} name - Persons name
+     */
+    this.name = personInfo.name;
+
+    /**
+     * @property {number} age - Persons age
+     */
+    this.age = personInfo.age;
+  }
+
+  /**
+   * @property {Function} greet - A greeting with the name and age
+   * @returns {void}
+   */
+  greet() {
+    console.log(`Hello, my name is ${this.name} and I am ${this.age}`);
+  }
+}
+
+/**
+ * Person one
+ * See {@link Person}
+ */
+const person1 = new Person({
+  name: 'John Doe',
+  age: 30,
+});
+
+// console.log(person1.greet());
