@@ -1,4 +1,6 @@
 //@ts-check
+//////////////////////////////////////////////////////////////
+//LESSON 1: JSDOCS BASICS
 
 /*
  By default type errors won't be thrown unless
@@ -30,3 +32,18 @@ const todo = {
   text: 'hello',
   // test: 1 //would throw error
 };
+
+//////////////////////////////////////////////////////////////
+//LESSON 3 FUNCTIONS AND PARAMS
+
+/**
+ * Calculate tax
+ * @param {number} amount - Total amount
+ * @param {number} tax - Tax percentage
+ * @returns {string} - Total with a dollar sign
+ */
+const calculateTax = (amount, tax) => {
+  return `$${amount + tax * amount}`;
+};
+
+// console.log(calculateTax(100, 0.1));
