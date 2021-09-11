@@ -45,5 +45,26 @@ const todo = {
 const calculateTax = (amount, tax) => {
   return `$${amount + tax * amount}`;
 };
-
 // console.log(calculateTax(100, 0.1));
+
+//////////////////////////////////////////////////////////////
+//LESSON 4 CUSTOM TYPES (typedef)
+
+/**
+ * A student
+ * @typedef {Object} Student
+ * @property {number} id - Student ID
+ * @property {string} name - Student name
+ * @property {string|number} [age] - Student age (optional)
+ * @property {boolean} isActive - Student isActive
+ */
+
+/**
+ * @type {Student}
+ */
+const student = {
+  id: 1,
+  name: 'John Doe',
+  age: 20, //this can be omitted since [age] indicates optional
+  isActive: true,
+};
