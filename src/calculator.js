@@ -1,8 +1,8 @@
 //////////////////////////////////////////////////////////////
-//LESSON 6 MODULES
+//LESSON 7 TUTORIALS
 
 /**
- * Calculator module
+ * Calculator module - See {@tutorial calculator-tutorial}
  * @module calculator
  */
 
